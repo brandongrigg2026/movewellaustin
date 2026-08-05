@@ -230,9 +230,12 @@ p {
   gap: 12px;
   color: var(--navy);
   text-decoration: none;
-  .site-logo {
+}
+
+.site-logo {
   display: block;
   width: 250px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -1039,6 +1042,10 @@ details p {
 }
 
 @media (max-width: 600px) {
+  .site-logo {
+    width: 190px;
+  }
+
   .container {
     width: min(calc(100% - 28px), var(--container));
   }
