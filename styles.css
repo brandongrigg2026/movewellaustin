@@ -1019,10 +1019,6 @@ details p {
     grid-template-columns: 1fr;
   }
 
-  .service-card:nth-child(2) {
-    transform: none;
-  }
-
   .price-card {
     width: min(100%, 520px);
   }
