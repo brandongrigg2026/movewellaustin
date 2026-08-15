@@ -672,10 +672,6 @@ p {
   box-shadow: 0 18px 45px rgba(22, 42, 61, 0.06);
 }
 
-.service-card:nth-child(2) {
-  transform: translateY(-14px);
-}
-
 .service-icon {
   display: grid;
   width: 54px;
