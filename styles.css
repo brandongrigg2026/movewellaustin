@@ -822,6 +822,20 @@ p {
   margin: 20px 0 30px;
 }
 
+
+.price-card .contact-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
+  width: 100%;
+}
+
+.price-card .contact-actions .button {
+  flex: 1 1 0;
+  width: auto;
+}
+
 .price-card .button {
   width: 100%;
   color: var(--white);
@@ -1050,6 +1064,19 @@ details p {
 }
 
 @media (max-width: 600px) {
+  .price-card .contact-actions {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .price-card .contact-actions .button {
+    width: 100%;
+    flex: none;
+  }
+
+
   .container {
     width: min(calc(100% - 28px), var(--container));
   }
