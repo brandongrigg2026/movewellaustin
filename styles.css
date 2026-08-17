@@ -822,18 +822,6 @@ p {
   margin: 20px 0 30px;
 }
 
-.price-card .contact-actions {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 12px;
-}
-
-.price-card .contact-actions .button {
-  flex: 1 1 0;
-  width: auto;
-}
-
 .price-card .button {
   width: 100%;
   color: var(--white);
