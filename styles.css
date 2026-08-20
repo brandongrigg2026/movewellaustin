@@ -585,7 +585,7 @@ p {
   background:
     linear-gradient(145deg, rgba(217, 229, 215, 0.7), rgba(247, 243, 234, 0.65)),
     repeating-linear-gradient(45deg, transparent 0 14px, rgba(79, 112, 83, 0.05) 14px 15px);
-  border-radius: 190px 190px 28px 28px;
+  border-radius: 36px;
 }
 
 .portrait-placeholder::after {
@@ -608,14 +608,14 @@ p {
   overflow: hidden;
   background: var(--cream);
   border: 1px solid rgba(79, 112, 83, 0.15);
-  border-radius: 160px 160px 20px 20px;
+  border-radius: 24px;
 }
 
 .trainer-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 35%;
+  object-position: 50% 10%;
 }
 
 
@@ -1149,11 +1149,11 @@ details p {
 
   .portrait-placeholder {
     min-height: 420px;
-    border-radius: 120px 120px 24px 24px;
+    border-radius: 36px;
   }
 
   .portrait-inner {
-    border-radius: 98px 98px 18px 18px;
+    border-radius: 24px;
   }
 
   .service-card,
