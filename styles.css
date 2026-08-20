@@ -591,10 +591,10 @@ p {
 .portrait-placeholder::after {
   position: absolute;
   z-index: 0;
-  right: -22px;
-  bottom: -22px;
-  width: 44%;
-  height: 44%;
+  right: 0;
+  bottom: 0;
+  width: 34%;
+  height: 34%;
   background: var(--green-700);
   border-radius: 0 0 28px 0;
   content: "";
@@ -632,12 +632,16 @@ p {
 
 .credential-list span {
   position: relative;
+  display: flex;
+  min-height: 58px;
+  align-items: center;
   padding: 14px 14px 14px 40px;
   color: var(--navy);
   background: var(--green-100);
   border-radius: 12px;
   font-size: 0.92rem;
   font-weight: 600;
+  line-height: 1.35;
 }
 
 .credential-list span::before {
