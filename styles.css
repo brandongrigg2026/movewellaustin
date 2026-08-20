@@ -590,6 +590,7 @@ p {
 
 .portrait-placeholder::after {
   position: absolute;
+  z-index: 0;
   right: -22px;
   bottom: -22px;
   width: 44%;
@@ -602,43 +603,21 @@ p {
 
 .portrait-inner {
   position: absolute;
+  z-index: 1;
   inset: 28px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
   background: var(--cream);
   border: 1px solid rgba(79, 112, 83, 0.15);
   border-radius: 160px 160px 20px 20px;
-  text-align: center;
 }
 
-.portrait-monogram {
-  display: grid;
-  width: 130px;
-  height: 130px;
-  margin-bottom: 30px;
-  place-items: center;
-  color: var(--white);
-  background: var(--green-700);
-  border-radius: 50%;
-  font-family: "Libre Baskerville", Georgia, serif;
-  font-size: 2.4rem;
+.trainer-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 35%;
 }
 
-.portrait-inner p {
-  margin-bottom: 4px;
-  color: var(--navy);
-  font-family: "Libre Baskerville", Georgia, serif;
-  font-size: 1.5rem;
-}
-
-.portrait-inner small {
-  color: var(--green-700);
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
 
 .about-copy > p:not(.eyebrow) {
   font-size: 1.05rem;
